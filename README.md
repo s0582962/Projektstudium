@@ -1,2 +1,2 @@
 # Projektstudium
-Rathaus &amp; Erbinformation (?)
+Rathaus 
