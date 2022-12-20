@@ -1,0 +1,42 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##samtoolsVersion=1.12+htslib-1.12
+##samtoolsCommand=samtools mpileup -d 250 -ugf Homo_sapiens.GRCh37.dna.primary_assembly.gz read.sorted.bam
+##reference=file:Homo_sapiens.GRCh37.dna.primary_assembly.gz
+##contig=<ID=1,length=249250621>
+##contig=<ID=10,length=135534747>
+##contig=<ID=11,length=135006516>
+##contig=<ID=12,length=133851895>
+##contig=<ID=13,length=115169878>
+##contig=<ID=14,length=107349540>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=RPB,Number=1,Type=Float,Description="Mann-Whitney U test of Read Position Bias (bigger is better)">
+##INFO=<ID=MQB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality Bias (bigger is better)">
+##INFO=<ID=MQ0F,Number=1,Type=Float,Description="Fraction of MQ0 reads (smaller is better)">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##bcftools_callVersion=1.12+htslib-1.12
+##bcftools_callCommand=call -vmO z -o 'variants.vcf.gz' 'read.pileup'; Date=Sun May 27 15:04:45 2021
+#CHROM	POS				REF	    ALT
+3	    10035680	    C	    G
+3	    10035681	    A	    G
+3	    10035682	    T	    T
+3	    10035683	    T	    A
+3	    10035684	    G	    A
+3	    10035685	    A	    G
+3	    10035686	    A	    T
+3	    10035687	    T	    T
+3	    10035688	    C	    C
+3	    10035689	    T	    G
+3	    10035690	    G	    A
+3	    10035691	    G	    G
+3	    10035692	    C	    C
+3	    10035693	    A	    T
+3	    10035694	    G	    T
+3	    10035695	    G	    G
+3	    10035696	    G	    G
+3	    10035697	    T	    C
+3	    10035698	    C	    T
+3	    10035699	    C	    G
+3	    10035700	    G	    G
